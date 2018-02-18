@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context="com.example.android.singlescreen.MainActivity">
+
+    <LinearLayout
+        android:id="@+id/activity_main"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:src="@drawable/bg"
+            style="@style/picture"
+            android:contentDescription="@string/pic_name"/>
+
+        <TextView
+            style="@style/TextH1"
+            android:text="@string/heading_1"/>
+
+        <TextView
+            style="@style/TextH3"
+            android:text="@string/description"/>
+
+        <TextView
+            style="@style/TextH1"
+            android:text="@string/heading2"/>
+
+        <TextView
+            style="@style/TextH3"
+            android:text="@string/location"/>
+
+        <TextView
+            style="@style/TextH1"
+            android:text="@string/heading3"/>
+
+        <TextView
+            style="@style/TextH3"
+            android:text="@string/tel" />
+
+        <TextView
+            style="@style/TextH2"
+            android:text="@string/hours_week"/>
+
+        <TextView
+            style="@style/TextH2"
+            android:text="@string/hours_weekend"/>
+
+    </LinearLayout>
+
+</ScrollView>

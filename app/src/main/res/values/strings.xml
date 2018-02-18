@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">SingleScreen App</string>
+    <string name="pic_name">Logo</string>
+    <string name="heading_1">About me</string>
+    <string name="heading2">Location</string>
+    <string name="heading3">Contact</string>
+    <string name="location">Rzeszow, Poland</string>
+    <string name="tel">+48 777 111 222</string>
+    <string name="hours_week">Weekdays 9:00–18:00</string>
+    <string name="hours_weekend">Weekend 5:00–17:00</string>
+    <string name="description">I love people and people love to feel beautiful, which is the reason I’ve spent last 5 years engulfed in doing makeup. I believe if you feel comfortable in your skin, then you can spend your energy loving others and enjoying life instead of worrying and being self-conscious. </string>
+</resources>
